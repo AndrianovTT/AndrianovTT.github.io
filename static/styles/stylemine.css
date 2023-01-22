@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+
+body{
+    font-family: Roboto Slab;
+    background-color: rgb(18, 42, 69);
+}
+
+p{
+    color:aliceblue ;
+}
+
+/* header */
+
+.navbar{
+    padding-bottom: 0;
+}
+.navbar-toggler{
+    background-color: rgb(57, 80, 107);
+}
+
+.navbar-brand{
+    max-width: 70px;
+}
+
+.navbar-brand>img{
+    max-width: 70px;
+}
+
+.navbar{
+    padding-top: 0;
+}
+
+header{
+    height: 34%;
+}
+
+.container-fluid{
+    background-color: rgb(17 24 39);
+}
+
+.nav-link{
+    color: rgb(57, 80, 107);
+}
+
+.navbar-nav .nav-link.active{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: rgb(124, 124, 236);
+}
+
+
+/* section */
+section{
+    background-color: rgb(18, 42, 69);
+}
+
+.row{
+    background-color: rgb(18, 42, 69);
+}
+
+.lline{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.lline>p{
+    margin: 0;
+    color:aliceblue ;
+}
+
+.P{
+    font-size: 25px;
+    color:aliceblue ;
+    margin: 10px;
+}
+
+@media(max-width:1000px){
+    .P{
+        font-size: 20px;
+        color:aliceblue ;
+        margin: 10px;
+    }
+}
+
+.rline{
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+/* .bord>p>img{
+    width: 100%;
+} */
+
+.bord>p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bord{
+    margin-top: 100px;
+}
+
+.bbord{
+    margin-top: 200px;
+}
+
+.nav-link.disabled{
+    display: none;
+}
